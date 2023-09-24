@@ -11,7 +11,7 @@ const App = () => {
     apiCall("karachi")
   }, [])
 
-
+// snjdskdj
   let apiCall = async (cityName) => {
     try {
       let dataGetApi = await axios.get(`https://api.openweathermap.org/data/2.5/weather?q=${cityName}&appid=2e4e1e0c27fa3bf005a6ecc866a70b85&units=metric`)
